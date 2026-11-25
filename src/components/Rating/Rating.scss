@@ -1,0 +1,14 @@
+@use '../../styles/variables' as *;
+
+.rating {
+  display: flex;
+  gap: 14px; // check in Figma
+
+  &__star {
+    color: #e3e3e3; // check in Figma
+
+    &--filled {
+      color: $color-primary;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@use '../../styles/variables' as *;
+
+.host {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__name {
+    margin: 0;
+    color: $color-primary;
+    font-size: 18px; // check in Figma
+    text-align: right;
+
+    span {
+      display: block;
+    }
+  }
+
+  &__picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

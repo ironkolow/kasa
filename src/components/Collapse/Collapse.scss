@@ -49,4 +49,11 @@
   &--open &__body {
     grid-template-rows: 1fr;
   }
+
+  &__inner {
+    padding: 20px;
+    font-size: 18px;
+  }
 }
+
+  
