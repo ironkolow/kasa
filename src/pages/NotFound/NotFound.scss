@@ -1,0 +1,31 @@
+@use '../../styles/variables' as *;
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px 100px;
+  text-align: center;
+
+  &__code {
+    margin: 0;
+    color: $color-primary;
+    font-size: clamp(100px, 25vw, 288px);
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  &__message {
+    margin: 135px 0 0;
+    color: $color-primary;
+    font-size: clamp(18px, 4vw, 36px);
+    font-weight: 500;
+  }
+
+  &__link {
+    margin-top: 145px;
+    color: #000;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+}
